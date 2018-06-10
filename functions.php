@@ -120,6 +120,10 @@ function html5blank_styles()
 
     wp_register_style('html5blank', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
     wp_enqueue_style('html5blank'); // Enqueue it!
+
+    
+    wp_register_style('nas-stil', get_template_directory_uri() . '/nas-style.css', array(), '1.0', 'all');
+    wp_enqueue_style('nas-stil'); // Enqueue it!
 }
 
 // Register HTML5 Blank Navigation
