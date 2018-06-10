@@ -1,0 +1,13 @@
+.header-new{
+    background: red;
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    height: 150px;
+}
+.mojlogo{
+    height: 100px;
+}
+.mojlogo-img{
+    height: 50px;
+}

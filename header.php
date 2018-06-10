@@ -26,16 +26,16 @@
 	<body <?php body_class(); ?>>
 
 		<!-- wrapper -->
-		<div class="wrapper-headera">
+		<div class="okvir">
 
 			<!-- header -->
-			<header class="header clear" role="banner">
+			<header class="header clear header-new" role="banner">
 
 					<!-- logo -->
-					<div class="logo">
+					<div class="logo mojlogo">
 						<a href="<?php echo home_url(); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/adidaslogo.png" alt="Logo" class="logo-img mojlogo-img">
 						</a>
 					</div>
 					<!-- /logo -->
