@@ -1,0 +1,27 @@
+.nasHeader{
+    background: white;
+    padding: 12px 12px 22px 22px;
+    color: green;
+    width: 100%;
+    position: relative;
+}
+a{
+    color:green;
+}
+.okvir{
+    padding: 0;
+    margin: 0;
+    width:100%;
+}
+.logo{
+    width: 100px;
+}
+body{
+    background: darkblue;
+}
+h1{
+    color: green;
+}
+p{
+    color:green;
+}
