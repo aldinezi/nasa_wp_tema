@@ -3,8 +3,41 @@
 	<main role="main">
 		<!-- section -->
 		<section>
+			<section id="slika">
+					<section id="naslov">
+						<h1>Making Landing Pages</h1>
+						<h1>Has Never Been Easier!</h1>
+						<h3>You can create unlimited possibilities with our new team.</h3>
+						<button id="dugme">Start Earning Today</button>
+					</section>
+			</section>
+			<section class="sadrzaj">
+				<h1>Best Headings Are The Thinest</h1>
+				<h3>From logo to website design and developers are ready to complete perfect your custom jobs</h3>
+				
+			</section>
 
-			<h1><?php the_title(); ?></h1>
+			<section id="vijesti">
+				<div class="vijest">
+						<h2>Vijest 1</h2>
+						<p>We provides you with user manage functions that result in faster development process</p>
+				</div>
+				<div class="vijest">
+					<h2>Vijest 2</h2>
+					<p>We provides you with user manage functions that result in faster development process</p>
+					
+				</div>
+				<div class="vijest">
+					<h2>Vijest 3</h2>
+					<p>We provides you with user manage functions that result in faster development process</p>
+					
+				</div>
+			</section>
+			<section class="sadrzaj">
+				<h1>Best Prices For Great Services</h1>
+				<h3>From logo to website design and developers are ready to complete perfect your custom jobs</h3>
+			</section>
+			
 
 		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
@@ -16,8 +49,7 @@
 				<?php comments_template( '', true ); // Remove if you don't want comments ?>
 
 				<br class="clear">
-
-				<?php edit_post_link(); ?>
+	
 
 			</article>
 			<!-- /article -->
@@ -40,6 +72,6 @@
 		<!-- /section -->
 	</main>
 
-<?php get_sidebar(); ?>
+
 
 <?php get_footer(); ?>

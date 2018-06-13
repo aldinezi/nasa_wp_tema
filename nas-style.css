@@ -1,27 +1,57 @@
-.nasHeader{
+.body{
     background: white;
-    padding: 12px 12px 22px 22px;
-    color: green;
-    width: 100%;
-    position: relative;
 }
-a{
-    color:green;
+nav ul li{
+    float: left;
+    padding: 10px;
+    list-style-type: none;
 }
-.okvir{
-    padding: 0;
-    margin: 0;
+nav ul{
+    float: right;
+    margin-right: 100px;
+}
+header{
+    height:50px;
+}
+#slika{
+    background-image:url("img/custome.jpg");
+    height : 400px;
     width:100%;
+    background-repeat: no-repeat;
+    background-size: 1250px 370px;
 }
-.logo{
-    width: 100px;
+#naslov{
+    color:white;
+    margin-left:300px;
+    padding-top:70px;
 }
-body{
-    background: darkblue;
+#dugme{
+    width:180px;
+    height:35px;
+    background-color:rgb(127,180,71);
+    border: none;
+    color:white;
+    outline:none;
+    border-radius: 2px;
+    font-size:14px;
+    font-weight: bold;
 }
-h1{
-    color: green;
+.sadrzaj{
+    text-align: center;
+    color:black;
+    width:400px;
+    margin:auto;
 }
-p{
-    color:green;
+.vijest{
+ display:inline-block;
+ width:150px;
+ height:150px;
+ text-align:center;   
+ padding:10px;
+ color:black;
+}
+#vijesti{
+   width:500px;
+    margin:auto;
+    padding-left: 40px;
 }
