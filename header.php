@@ -7,7 +7,7 @@
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
-
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="<?php bloginfo('description'); ?>">
@@ -29,22 +29,16 @@
 		<div class="okvir">
 
 			<!-- header -->
-			<header class="header clear nasHeader" role="banner">
-
-					<!-- logo -->
-					<div class="logo mojLogo">
-						<a href="<?php echo home_url(); ?>">
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo get_template_directory_uri(); ?>/img/jpg.png" alt="Logo" class="logo-img imgClass">
-						</a>
-					</div>
-					<!-- /logo -->
-	
-					<!-- nav -->
-					<nav class="nav" role="navigation">
-						<?php html5blank_nav(); ?>
-					</nav>
-					<!-- /nav -->
-
+			<header class="header nasHeader" role="banner">
+				<nav class="nav">
+					<ul>
+						<li>Projekti</li>
+						<li>O nama</li>
+						<li>Kontakt</li>
+						<li><i class="fab fa-facebook-f fa-lg" href="https://facebook.com"></i></li>
+						<li><i class="fab fa-twitter fa-lg"></i></li>
+						<li><i class="fab fa-instagram fa-lg"></i></li>
+					</ul>
+				</nav>
 			</header>
 			<!-- /header -->

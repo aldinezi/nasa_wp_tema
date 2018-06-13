@@ -1,13 +1,11 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
-
-				<!-- copyright -->
-				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
-				</p>
-				<!-- /copyright -->
-
+			<section class="content">
+				<div id="contentTitle">
+					<h1>Contact</h1>
+					<h3>From logo to website design and developers are ready to complete perfect your custom jobs</h3>
+				</div>
+			</section>
 			</footer>
 			<!-- /footer -->
 
