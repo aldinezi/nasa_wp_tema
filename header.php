@@ -38,7 +38,7 @@
 							Projekt
 							</li>
 							<li>
-							O nama
+							<a href="<?php echo home_url()?>/o-nama">O nama</a>
 							</li>
 							<li>
 							Kontakt
@@ -49,6 +49,8 @@
 							
 						</ul>
 						</nav>
+
+						<?php html5blank_nav('newMenuID')?>
 					<!-- logo -->
 					<div class="logo">
 						<a href="<?php echo home_url(); ?>">

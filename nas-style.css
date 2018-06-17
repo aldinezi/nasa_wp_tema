@@ -55,3 +55,14 @@ header{
     margin:auto;
     padding-left: 40px;
 }
+.nasMenu{
+    float: left;
+    padding: 10px;
+}
+.nasMenu li{
+    float:left;
+    padding:5px;
+}
+.nasMenu ul{
+list-style-type:none;
+}
