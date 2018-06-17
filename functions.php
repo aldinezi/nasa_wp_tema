@@ -132,6 +132,9 @@ function html5blank_styles()
 
     wp_register_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.css', array(), '1.0', 'all');
     wp_enqueue_style('bootstrap'); // Bootstrap css
+
+    wp_register_style('front-page', get_template_directory_uri() . '/css/front.css', array(), '1.0', 'all');
+    wp_enqueue_style('front-page'); // Enqueue it!
 }
 
 // Register HTML5 Blank Navigation
