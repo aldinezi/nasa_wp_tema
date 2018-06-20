@@ -14,7 +14,13 @@ main{
     width: auto;
     height: 40px;
 }
-
+.dropdown-menu{
+    width: 200px;
+    font-size: 18px;
+}
+.nav-item{
+    padding-left: 15px;
+}
 @media only screen and (max-width : 768px) {
     /* Styles */
 .navbar-collapse{
