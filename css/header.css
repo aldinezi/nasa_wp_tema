@@ -1,0 +1,27 @@
+.navbar{
+    height: 60px;
+    font-size: 18px;
+
+}
+.bg-light{
+    background-color: white !important;
+}
+
+main{
+    margin-top: 60px;
+}
+.logo-img{
+    width: auto;
+    height: 40px;
+}
+
+@media only screen and (max-width : 768px) {
+    /* Styles */
+.navbar-collapse{
+    margin-top: 60px;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+}
+}
+    
