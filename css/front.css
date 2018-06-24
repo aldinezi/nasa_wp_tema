@@ -1,12 +1,13 @@
-.intro-slide{
-max-height: 400px;
+#introNews{
+    margin-top: 30px;
 }
-#carouselOKCIntroSlide{
-    max-height: 400px;
+.card-text{
+    min-height: 45px;
+    max-height: 45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
-.carousel-inner{
-    max-height: 400px;
-}
-.carousel-item{
-    max-height:400px;
+.image{
+    height: 200px;
+
 }
