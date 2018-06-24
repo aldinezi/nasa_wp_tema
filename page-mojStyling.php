@@ -1,25 +1,30 @@
-<?php /* Template Name: Demo Stranica Template */ get_header(); ?>
-
+<?php /* Template Name: MojStyling Template */ get_header(); ?>
 	<main role="main">
+		<!-- Slider -->
+		<?php
+		echo do_shortcode('[smartslider3 slider=1]');
+		?>
 		<!-- section -->
-		<section>
+		<section class="pozadina">
 
 			<h1><?php the_title(); ?></h1>
 
 		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 			<!-- article -->
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			
+				<article  id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-				<?php the_content(); ?>
+					<?php the_content(); ?>
 
-				<?php comments_template( '', true ); // Remove if you don't want comments ?>
+					<?php comments_template( '', true ); // Remove if you don't want comments ?>
 
-				<br class="clear">
+					<br class="clear">
 
-				<?php edit_post_link(); ?>
+					<?php edit_post_link(); ?>
 
-			</article>
+				</article>
+			
 			<!-- /article -->
 
 		<?php endwhile; ?>
@@ -42,4 +47,4 @@
 
 <?php get_sidebar(); ?>
 
-<?php get_footer(); ?>
+
