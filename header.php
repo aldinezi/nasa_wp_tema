@@ -46,6 +46,9 @@
       </li>
     </ul>
   </div>
+  <div class="links">
+		<a href="https://www.facebook.com/okcurbanart/" target="_blank" class="link-fb"><i class="fab fa-facebook fa-2x"></i></a>
+	</div>
 </nav>
-		
+
 			<!-- /header -->

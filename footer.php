@@ -1,4 +1,5 @@
-			<!-- footer -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<!-- footer -->
 			<footer role="contentinfo">
 				<!-- footer links -->
 				<div class="container-fluid">
@@ -7,25 +8,7 @@
 							<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
 							<p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 						</div>	
-						<div class="col-md-2">
-							<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-							<ul class="list">
-								<li><a href="#!">Link 1</a></li>
-								<li><a href="#!">Link 2</a></li>
-								<li><a href="#!">Link 3</a></li>
-								<li><a href="#!">Link 4</a></li>
-							</ul>
-						</div>
-						<div class="col-md-2">
-							<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-							<ul class="list">
-								<li><a href="#!">Link 1</a></li>
-								<li><a href="#!">Link 2</a></li>
-								<li><a href="#!">Link 3</a></li>
-								<li><a href="#!">Link 4</a></li>
-							</ul>
-						</div>
-						<div class="col-md-2">
+						<div class="col-md-6">
 							<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
 							<ul class="list">
 								<li><a href="#!">Link 1</a></li>
@@ -37,8 +20,7 @@
 					</div>
 						<!-- copyright -->
 						<p class="copyright">
-							&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-							<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
+							&copy; <?php echo date('Y'); ?> Copyright <a href="https://www.okcurbanart.org" title="OKC Urban Art" rel="nofollow">OKC Urban Art sva prava pridržana.  </a>
 						</p>
 						<!-- /copyright -->
 					</div>

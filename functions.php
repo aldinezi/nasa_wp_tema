@@ -140,6 +140,9 @@ function html5blank_styles()
     
     wp_register_style('headercss', get_template_directory_uri() . '/css/header.css', array(), '1.0', 'all');
     wp_enqueue_style('headercss'); // Enqueue it!
+
+    wp_register_style('footercss', get_template_directory_uri() . '/css/footer.css', array(), '1.0', 'all');
+    wp_enqueue_style('footercss'); // Enqueue it!
 }
 
 // Register HTML5 Blank Navigation
