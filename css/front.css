@@ -1,13 +1,14 @@
 #introNews{
-    margin-top: 30px;
+
 }
 #cards{
-    position: absolute;
+    position: relative;
     width: 100%;
     background-color: silver;
     background-image: url("../img/muzej.jpg");
     background-size: cover;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 .card{
     border-radius: 7px;
