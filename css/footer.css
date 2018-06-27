@@ -1,0 +1,10 @@
+.container-fluid{
+    background-color: rgb(89, 87, 95);
+    color:white;
+}
+.container-fluid a{
+    color:rgb(226, 205, 205);
+}
+.copyright{
+    text-align: center;
+}
