@@ -305,3 +305,18 @@ a img.aligncenter {
 		page-break-after:avoid;
 	}
 }
+/* Single post style */
+.header-wrap{
+	height: 400px;
+    display: flex;
+    justify-content: center;
+	align-content: center;
+	margin-bottom: 30px;
+}
+.single-post-title{
+	display: flex;
+    justify-self: center;
+    align-self: center;
+    color: white;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+}
