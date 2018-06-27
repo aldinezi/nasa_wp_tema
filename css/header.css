@@ -30,7 +30,10 @@ main{
     width: 100%;
 }
 }
-.fa-facebook{
-    margin-right: 10px;
+.facebookLink{
+    color: rgb(59, 59, 59);
+    margin-right: 15px;
 }
-    
+.facebookLink:hover{
+    color: #4267b2;
+}

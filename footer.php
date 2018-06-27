@@ -1,20 +1,25 @@
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-		<!-- footer -->
 			<footer role="contentinfo">
 				<!-- footer links -->
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-md-6 col-lg-6 ">
-							<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
-							<p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						<div class="col-md-6 col-lg-6 footerC">
+							<h3 class="font-weight-bold text-uppercase mt-3 mb-4">Omladinski kulturni centar <b>"UrbanArt"</b></h3>
+							<h4><i class="fas fa-home"></i>    Muzej bitke za ranjenike b.b.</h4>
+							<h4><i class="fas fa-envelope"></i><a href="mailto:okcurbanart@outlook.com"> okcurbanart@outlook.com</a></h4>
+							<h4><i class="fas fa-dollar-sign"></i>      		 Žiro račun: 1990530009622445</h4>
+							<h4><i class="fas fa-phone-square"></i>     Tel/fax: 036/752-621</h4>
+							<h4><i class="fas fa-university"></i>     ID: 4227473470003</h4>
+
+
 						</div>	
-						<div class="col-md-6">
-							<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-							<ul class="list">
-								<li><a href="#!">Link 1</a></li>
-								<li><a href="#!">Link 2</a></li>
-								<li><a href="#!">Link 3</a></li>
-								<li><a href="#!">Link 4</a></li>
+						<div class="col-md-6 footerRightSide">
+							<ul class="list footerLinks text-right">
+								<li class ="footerItem"><a href="muzika">Muzički Centar</a></li>
+								<li class ="footerItem"><a href="itcentar">It Centar</a></li>
+							</ul>
+							<ul class="listSponzori text-right">
+								<li><a href="http://www.ba.undp.org/content/bosnia_and_herzegovina/bs/home.html"><img src="<?php echo get_template_directory_uri(); ?>/img/UNDP.jpg" class="slika"></a></li>
+								<li><a href="http://www.jablanica.ba/ba/"><img src="<?php echo get_template_directory_uri(); ?>/img/jab.png" class="slika"></a></li>
 							</ul>
 						</div>
 					</div>

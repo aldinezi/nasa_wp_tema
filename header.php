@@ -4,6 +4,8 @@
 		<meta charset="<?php bloginfo('charset'); ?>">
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
@@ -53,7 +55,7 @@
     </ul>
   </div>
   <div class="links">
-		<a href="https://www.facebook.com/okcurbanart/" target="_blank" class="link-fb"><i class="fab fa-facebook fa-2x"></i></a>
+		<a href="https://www.facebook.com/okcurbanart/" target="_blank" class="link-fb"><i class="fab fa-facebook fa-2x facebookLink"></i></a>
 	</div>
 </nav>
 			<!-- /header -->
