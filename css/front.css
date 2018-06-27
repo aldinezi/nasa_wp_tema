@@ -1,13 +1,37 @@
 #introNews{
     margin-top: 30px;
 }
+#cards{
+    position: absolute;
+    width: 100%;
+    background-color: silver;
+    background-image: url("../img/muzej.jpg");
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.card{
+    border-radius: 7px;
+}
+.card-title{
+    text-align: center;
+}
 .card-text{
     min-height: 45px;
     max-height: 45px;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-align: center;
+}
+.btn{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: block;
+    border-radius: 10px;
 }
 .image{
     height: 200px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 
 }

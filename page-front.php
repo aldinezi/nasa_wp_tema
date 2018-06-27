@@ -20,13 +20,13 @@ $the_query = new WP_Query( $args );
 <?php if ( $the_query->have_posts() ) : ?>
 
     <!-- start of the loop -->
-
+    <section id="cards">
     <div class = "container" id = "introNews">
         <div class = "row">
             
         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
             <div class = "col-md-4">
-
+            
                 <div class="card">
                 <?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
                     <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
@@ -37,7 +37,7 @@ $the_query = new WP_Query( $args );
                 <div class="card-body">
                          <h5 class="card-title"><?php the_title(); ?></h5>
                         <p class="card-text"><?php the_excerpt(); ?></p>
-                        <a href="<?php the_permalink(); ?>" class="btn btn-primary">Vidi više</a>
+                        <a href="<?php the_permalink(); ?>" class="btn btn-outline-secondary">Vidi više</a>
                     </div>
                 </div>
             </div>
@@ -57,6 +57,8 @@ $the_query = new WP_Query( $args );
         </div>
 
     </div>
+    </section>
+   
 
     
  </main>
